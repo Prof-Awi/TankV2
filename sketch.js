@@ -17,14 +17,14 @@ var tanks = []
 var tankBarrel = []
 
 function preload(){
-  explosionImg = loadImage("explosion.png")
-  bgSound = loadSound("soundtrack.mp3")
-  exsound = loadSound("explosion.wav")
-  RTankImg = loadImage("/Tanks/Red/Tank.png")
-  BTankImg = loadImage("/Tanks/Blue/Tank.png")
-  RBarrelImg = loadImage("/Tanks/Red/Barrel.png")
-  BBarrelImg = loadImage("/Tanks/Blue/Barrel.png")
-  backgroundImage = loadImage("background.jpg")
+  explosionImg = loadImage("./explosion.png")
+  bgSound = loadSound("./soundtrack.mp3")
+  exsound = loadSound("./explosion.wav")
+  RTankImg = loadImage("./Tanks/Red/Tank.png")
+  BTankImg = loadImage("./Tanks/Blue/Tank.png")
+  RBarrelImg = loadImage("./Tanks/Red/Barrel.png")
+  BBarrelImg = loadImage("./Tanks/Blue/Barrel.png")
+  backgroundImage = loadImage("./background.jpg")
 
 }
 
